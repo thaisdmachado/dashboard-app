@@ -115,7 +115,7 @@ function Dashboard() {
 
 function DashboardCard({ title, value, icon }) {
   return (
-    <Card>
+    <Card style={{paddingLeft: 8, paddingRight: 8}}>
       <Space direction="horizontal">
         {icon}
         <Statistic title={title} value={value} />

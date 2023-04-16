@@ -29,7 +29,7 @@ function AppHeader() {
     width={40}
     src={logo} alt="Store"> 
     </Image>
-    <Typography.Title style={{ color: '#28D0D0' }}>Store Dashboard</Typography.Title>
+    <Typography.Title style={{ color: '#28D0D0' }}>Thais's Dashboard</Typography.Title>
     <Space>
         <Badge count={comments.length} dot>
         <MailOutlined 
