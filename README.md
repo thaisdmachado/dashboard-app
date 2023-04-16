@@ -3,7 +3,7 @@
 
 ## 📚 Objetivo do Projeto
 
-Realizar um dashboard de uma loja virtual ficticia
+Realizar um dashboard de uma loja virtual ficticia para consolidar os conhecimentos nas tecnologias abaixo.
 
 ## 💻 Tecnologias
 
@@ -13,12 +13,8 @@ Realizar um dashboard de uma loja virtual ficticia
 - Javascript
 - AntDesign
 
-## 🔨Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento. Alterações em breve!
 
 
-
-Made with 💜 by Thais Machado
+Made with 💚 by Thais Machado
 
 
