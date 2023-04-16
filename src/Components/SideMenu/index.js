@@ -16,6 +16,7 @@ function SideMenu() {
     const navigate = useNavigate()
     return <div className="SideMenu">
         <Menu
+        style={{padding: 12, backgroundColor: '#28D0D0', color: '#fff',}}
         className="SideMenuVertical"
         mode="vertical"
         onClick={(item)=>{

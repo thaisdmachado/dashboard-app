@@ -2,6 +2,8 @@ import { Badge, Drawer, Image, Space, Typography, List } from "antd";
 import { MailOutlined, BellFilled} from "@ant-design/icons"
 import { useEffect, useState } from "react";
 import { getComments, getOrders } from "../../API";
+import logo from '../../img/store.png'
+
 
 function AppHeader() {
 
@@ -25,9 +27,9 @@ function AppHeader() {
     
     <Image 
     width={40}
-    src="https://img.freepik.com/vetores-gratis/ilustracao-de-circulo-selo-bandeira-vetorial_53876-27183.jpg?w=2000"> 
+    src={logo} alt="Store"> 
     </Image>
-    <Typography.Title>Brand Dashboard</Typography.Title>
+    <Typography.Title style={{ color: '#28D0D0' }}>Store Dashboard</Typography.Title>
     <Space>
         <Badge count={comments.length} dot>
         <MailOutlined 

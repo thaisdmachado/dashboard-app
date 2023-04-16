@@ -55,8 +55,8 @@ function Dashboard() {
           icon={
             <ShoppingCartOutlined
               style={{ 
-                color: "green", 
-                backgroundColor: "rgba(0, 255, 0, 0.25)",
+                color: "white", 
+                backgroundColor: "#20B9D0",
                 borderRadius: 20,
                 fontSize: 24,
                 padding: 8,
@@ -68,8 +68,8 @@ function Dashboard() {
         <DashboardCard
           icon={<ShoppingOutlined 
             style={{ 
-                color: "purple", 
-                backgroundColor: "rgba(0, 255, 255, 0.25)",
+                color: "white", 
+                backgroundColor: "#28D0D0",
                 borderRadius: 20,
                 fontSize: 24,
                 padding: 8,
@@ -81,8 +81,8 @@ function Dashboard() {
         <DashboardCard
           icon={<UserOutlined 
             style={{ 
-                color: "blue", 
-                backgroundColor: "rgba(0, 0, 255, 0.25)",
+                color: "white", 
+                backgroundColor: "#57E5C6",
                 borderRadius: 20,
                 fontSize: 24,
                 padding: 8,
@@ -94,8 +94,8 @@ function Dashboard() {
         <DashboardCard
           icon={<DollarCircleOutlined 
             style={{ 
-                color: "red", 
-                backgroundColor: "rgba(255, 0, 0, 0.25)",
+                color: "white", 
+                backgroundColor: "#8DF8B7",
                 borderRadius: 20,
                 fontSize: 24,
                 padding: 8,
@@ -139,7 +139,7 @@ function RecentOrders() {
 
     return (
     <>
-    <Typography.Text>Recent Orders</Typography.Text>
+    <Typography.Text style={{ fontSize: 16, fontWeight: 600, }}>Recent Orders</Typography.Text>
     <Table
         columns={[
             {
@@ -185,7 +185,7 @@ function DashboardChart(params) {
           {
             label: 'Revenue',
             data: data,
-            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: '#8DF8B7',
           },
         ],
       };
@@ -207,9 +207,6 @@ function DashboardChart(params) {
       },
     },
   };
-
-    const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
-
 
    
   return (

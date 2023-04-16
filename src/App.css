@@ -22,6 +22,10 @@
 
 }
 
+.AppFooter span {
+  font-weight: 600;
+}
+
 .MenuPage{
   display: flex;
   flex: 1;
@@ -39,7 +43,7 @@
 }
 
 .PageContent{
-  padding-left: 12px;
-
+  padding-left: 250px;
+  padding-top: 26px;
 }
 
