@@ -13,6 +13,9 @@ Realizar um dashboard de uma loja virtual ficticia para consolidar os conhecimen
 - Javascript
 - AntDesign
 
+## 💾 API
+
+Todos os dados utilizados no projeto foram fornecidos atraves de conexão com a API Dummy Json (https://dummyjson.com)
 
 
 Made with 💚 by Thais Machado
